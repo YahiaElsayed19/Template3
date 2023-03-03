@@ -5,7 +5,7 @@ let stat = document.querySelector('.stats')
 let nums = Array.from(document.querySelectorAll('.stats .container .box .number'))
 let started = false
 
-let countDown = new Date('dec 31,2026 23:59:59').getTime()
+let countDown = new Date('dec 31,2024 23:59:59').getTime()
 let counter = setInterval(() => {
     let dateNow = new Date().getTime()
     let dateDiff = countDown - dateNow
