@@ -1247,7 +1247,7 @@ ul {
     border-bottom: 1px solid #d4d4d4;
     font-size: 35px;
     color: var(--main-color);
-    padding: 15px;
+    padding: 15px 0;
     font-weight: bold;
     transition: var(--main-duration);
 }
